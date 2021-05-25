@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: {
-      tabsy: path.resolve(__dirname, 'src/tabsy.ts'),
+      tabsy: path.resolve(__dirname, 'src/tabsy.js'),
     },
     output: {
       filename: '[name].bundle.js',
